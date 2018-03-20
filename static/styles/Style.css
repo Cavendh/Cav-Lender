@@ -1,0 +1,76 @@
+.jumbotron {
+    color: #A9A9A9;
+    background-color: #CAEBF2;
+    font-family: Impact;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+
+  }
+@media (min-width: 768px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+
+    width: 14.285714%;
+    *width: 14.285714%;
+    text-align: center;
+    color: #A9A9A9;
+    background-color: #EFEFEF;
+    font-family: Impact;
+    height: 50px;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 10px;
+    vertical-align: middle;
+    line-height: 50px;
+
+  }
+}
+
+@media (min-width: 992px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1.
+  .seven-cols .col-lg-1 {
+
+    width: 14.285714%;
+    *width: 14.285714%;
+    text-align: center;
+    background-color: silver;
+    font-family: Impact;
+    height: 50px;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 10px;
+    vertical-align: middle;
+    line-height: 50px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1.
+  .seven-cols .col-lg-1 {
+
+    width: 14.285714%;
+    *width: 14.285714%;
+    text-align: center;
+    background-color: silver;
+    font-family: Impact;
+    height: 50px;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 10px;
+    vertical-align: middle;
+    line-height: 50px;
+
+  }
+
+}
+
+.Weekday {
+
+  font-size: 30px;
+
+}
