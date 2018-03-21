@@ -1,76 +1,65 @@
+body {
+
+  background-image: url('https://i.imgur.com/aRLS4Zz.png');
+
+
+}
 .jumbotron {
     color: #A9A9A9;
-    background-color: #CAEBF2;
+    background-color: rgba(25,62,75,.78);
     font-family: Impact;
     font-weight: bold;
     text-align: center;
     margin-bottom: 5px;
-
-  }
-@media (min-width: 768px) {
-  .seven-cols .col-md-1,
-  .seven-cols .col-sm-1,
-  .seven-cols .col-lg-1 {
-
-    width: 14.285714%;
-    *width: 14.285714%;
-    text-align: center;
-    color: #A9A9A9;
-    background-color: #EFEFEF;
-    font-family: Impact;
-    height: 50px;
-    border-width: thin;
-    border-style: solid;
-    border-radius: 10px;
-    vertical-align: middle;
-    line-height: 50px;
-
-  }
-}
-
-@media (min-width: 992px) {
-  .seven-cols .col-md-1,
-  .seven-cols .col-sm-1.
-  .seven-cols .col-lg-1 {
-
-    width: 14.285714%;
-    *width: 14.285714%;
-    text-align: center;
-    background-color: silver;
-    font-family: Impact;
-    height: 50px;
-    border-width: thin;
-    border-style: solid;
-    border-radius: 10px;
-    vertical-align: middle;
-    line-height: 50px;
-  }
-
-}
-
-@media (min-width: 1200px) {
-  .seven-cols .col-md-1,
-  .seven-cols .col-sm-1.
-  .seven-cols .col-lg-1 {
-
-    width: 14.285714%;
-    *width: 14.285714%;
-    text-align: center;
-    background-color: silver;
-    font-family: Impact;
-    height: 50px;
-    border-width: thin;
-    border-style: solid;
-    border-radius: 10px;
-    vertical-align: middle;
-    line-height: 50px;
+    opacity: 0.9;
 
   }
 
-}
+    .col-md-12 .col-md-2 {
+
+      width: 1%;
+      padding: 0px;
+
+    }
+
+    .col-md-12 .col-md-1 {
+
+      width: 13.9%;
+      text-align: center;
+      color: #A9A9A9;
+      background-color: rgba(25,62,75,.78);
+      font-family: Impact;
+      height: 50px;
+      border-width: thin;
+      border-style: solid;
+      border-radius: 5px;
+      vertical-align: middle;
+      line-height: 50px;
+      opacity: 0.9;
+
+    }
+    .CalenderBody .col-md-12 .col-md-1 {
+
+      width: 13.9%;
+      text-align: center;
+      color: #A9A9A9;
+      background-color: rgba(255,255,255,.8);
+      font-family: Impact;
+      height: 300px;
+      border-width: thin;
+      border-style: solid;
+      border-radius: 5px;
+      vertical-align: middle;
+      line-height: 50px;
+      opacity: 0.9;
+
+    }
+
+
 
 .Weekday {
 
-  font-size: 30px;
+  font-size: 20px;
+  opacity: 1;
 
 }
